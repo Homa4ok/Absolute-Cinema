@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute Cinema</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header__container _container">
+                <div class="header__logo">
+                    <img src="img/header/logo.svg" alt="logo">
+                </div>
+                <nav class="header__menu">
+                    <a href="#" class="header__link">Главная</a>
+                    <a href="#" class="header__link">Фильмы</a>
+                    <a href="#" class="header__link">Кинотеатры</a>
+                    <a href="#" class="header__link">События</a>
+                    <a href="#" class="header__link">Поддержка</a>
+                </nav>
+                <div class="header__profile profile">
+                    <span>Привет, Евгений</span>
+                    <div class="profile__image">
+                        <img src="img/header/dog.jpg" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-block">
+            <div class="main-block__container _container">
+                <div class="main-block__trailer trailer">
+                    <div class="trailer__content">
+                        <h2 class="trailer__en-title">Avengers: Infinity War</h2>
+                        <h1 class="trailer__ru-title">Мстители: война бесконечности</h1>
+                        <div class="trailer__text">Пока Мстители и их союзники продолжают защищать мир от различных
+                            опасностей, с которыми не смог бы справиться один супергерой, новая угроза возникает из
+                            космоса: Танос. Межгалактический тиран преследует цель собрать все шесть Камней
+                            Бесконечности - артефакты невероятной силы, с помощью которых можно менять реальность по
+                            своему желанию. Всё, с чем Мстители сталкивались ранее, вело к этому моменту – судьба Земли
+                            никогда ещё не была столь неопределённой.
+                        </div>
+                        <div class="trailer__footer">
+                            <div class="trailer__time">
+                                <img src="img/main-block/clock.svg" alt="clock">
+                                <span>240 мин.</span>
+                            </div>
+                            <div class="trailer__rate">
+                                <img src="img/main-block/imdb.svg" alt="IMDB">
+                                <div class="trailer__number">
+                                    <span>9.2</span>/ 10
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="trailer__play-button">
+                        <svg width="100" height="100" viewBox="0 0 100 100" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="50" fill="white" />
+                            <g clip-path="url(#clip0_1_158)">
+                                <path
+                                    d="M43.0758 30.0033C39.3071 27.8416 36.2518 29.6125 36.2518 33.9556V66.0059C36.2518 70.3533 39.3071 72.1219 43.0758 69.9623L71.0893 53.8967C74.8592 51.7342 74.8592 48.2306 71.0893 46.0686L43.0758 30.0033Z"
+                                    fill="#F20D01" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1_158">
+                                    <rect width="41.8013" height="41.8013" fill="white"
+                                        transform="translate(34.1837 29.0816)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+                <div class="main-block__timetable timetable">
+                    <div class="timetable__date date">
+                        <div class="date__title">Дата</div>
+                        <div class="date__block">
+                            <div class="date__item">
+                                <span class="date__month">АПР</span>
+                                <span class="date__number">27</span>
+                                <span class="date__day">пт</span>
+                            </div>
+                            <div class="date__item">
+                                <span class="date__month">АПР</span>
+                                <span class="date__number">28</span>
+                                <span class="date__day">сб</span>
+                            </div>
+                            <div class="date__item">
+                                <span class="date__month">АПР</span>
+                                <span class="date__number">29</span>
+                                <span class="date__day">вс</span>
+                            </div>
+                            <div class="date__item">
+                                <span class="date__month">АПР</span>
+                                <span class="date__number">30</span>
+                                <span class="date__day">пн</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timetable__address address">
+                        <div class="address__title">Кинотеатр</div>
+                        <select name="cinema" class="address__select">
+                            <option value="Октябрь, ул. Калужская 28">Октябрь, ул. Калужская 28</option>
+                            <option value="Проспект, ул. Проспект 15">Проспект, ул. Проспект 15</option>
+                            <option value="Синема Плаза, ул. Пушкинская 10">Синема Плаза, ул. Пушкинская 10</option>
+                            <option value="Мультиплекс, ул. Лесная 42">Мультиплекс, ул. Лесная 42</option>
+                        </select>
+                    </div>
+                    <div class="timetable__time time">
+                        <div class="time__title">Время</div>
+                        <select name="time" class="time__select">
+                            <option value="23:00">23:00</option>
+                            <option value="20:00">20:00</option>
+                            <option value="18:00">18:00</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
